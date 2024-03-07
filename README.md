@@ -19,5 +19,4 @@ The application has been tested locally with Java 21 and Gradle 8.5 (on MacOS). 
 ![Gradle workflow](https://github.com/SamuelSVG/ClockSystem/actions/workflows/gradle.yml/badge.svg)
 ![PMD Code Analysis workflow](https://github.com/SamuelSVG/ClockSystem/actions/workflows/pmd.yml/badge.svg)
 ![CodeQL workflow](https://github.com/SamuelSVG/ClockSystem/actions/workflows/codeql.yml/badge.svg)
-![ScoreCard workflow](https://github.com/SamuelSVG/ClockSystem/actions/workflows/scorecard.yml/badge.svg)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/SamuelSVG/ClockSystem/badge)](https://securityscorecards.dev/viewer/?uri=github.com/SamuelSVG/ClockSystem)

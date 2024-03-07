@@ -12,11 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:       
     - uses: actions/checkout@v3
-    - uses: devops-actions/actionlint@c0ee017f8abef55d843a647cd737b87a1976eb69 #v0.1.1
+    - uses: devops-actions/actionlint@c0ee017f8abef55d843a647cd737b87a1976eb69 #v0.1.2
       continue-on-error: true
       id: action-lint
     
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4.3.1
       with:
         name: actionlint-results
         path: ${{ steps.action-lint.outputs.results-file }}
